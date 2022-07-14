@@ -11,7 +11,6 @@ opened_file.write(description)
 opened_file.close()
  
 os.rename('data/'+pageId, 'data/'+title)
- 
-#Redirection
+
 print("Location: index.py?id="+title)
 print()
